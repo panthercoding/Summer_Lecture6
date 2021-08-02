@@ -16,3 +16,5 @@ class Point():
 
 def main():
   """ create two points and compute and print out the taxicab distance """
+
+main()
