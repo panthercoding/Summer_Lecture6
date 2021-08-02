@@ -2,7 +2,7 @@ import numpy as np
 
 class Point():
 
-  def __init__(self,x,y,z):
+  def __init__(self,x,y):
     """ delete the below and finish the constructor method """
     pass
   
