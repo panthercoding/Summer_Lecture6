@@ -20,10 +20,10 @@ def test_rectangle():
 
 class Square(Rectangle):
 
-  def __init__(self,length,width):
+  def __init__(self,length):
     """delete the below and finish the constructor
-     Inside the constructor method, we can use super( ).__init__(x,x)
-     to form our square, which is essentially a rectangle with equal sides of length x.
+     Inside the constructor method, we can use super( ).__init__(length,length)
+     to form our square, which is essentially a rectangle with equal sides of the desired length.
 
      Note that due to inheritance, we can use the area and perimeter formulas
      from the Rectangle class. 
@@ -38,3 +38,5 @@ def main():
   test_rectangle()
   test_square()
   print("Tests complete!")
+ 
+main()
